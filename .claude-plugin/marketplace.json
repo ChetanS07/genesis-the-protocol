@@ -1,5 +1,5 @@
 {
-  "name": "cs-genesis-protocol",
+  "name": "cs-genesis",
   "owner": { "name": "Chetan S" },
   "description": "Project design protocols",
   "plugins": [
