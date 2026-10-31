@@ -1,0 +1,12 @@
+{
+  "name": "cs-genesis-protocol",
+  "owner": { "name": "Chetan S" },
+  "description": "Project design protocols",
+  "plugins": [
+    {
+      "name": "genesis-the-protocol",
+      "source": "./plugins/genesis-the-protocol",
+      "description": "Take a project idea from interview to architecture files"
+    }
+  ]
+}
