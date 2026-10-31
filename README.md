@@ -40,7 +40,7 @@ Each skill can also be used alone if what it needs is already in the conversatio
 
 ## Where the files go
 
-In Claude Code, the handoff writes into a `genesis-protocol-docs/` folder at the project root (the git root, or the working directory when there is no repository). The folder is created if it doesn't exist. In apps that can send files, the three files are delivered in the conversation.
+In Claude Code, the skill `handoff-architecture-protocol` writes into a `genesis-protocol-docs/` folder at the project root (the working directory when there is no repository). The folder is created if it doesn't exist. In apps that can send files, the three files are delivered in the conversation.
 
 ## License
 
