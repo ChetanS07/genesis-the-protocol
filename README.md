@@ -9,17 +9,7 @@ Every stage ends with your approval. Nothing moves on until you say so, and you 
 In Claude Code:
 
 ```bash
-claude plugin marketplace add ChetanS07/genesis-protocol
-claude plugin install genesis-the-protocol@chetan-protocols
-```
-
-Replace `ChetanS07/genesis-protocol` with the actual repository path if it differs.
-
-To try it from a local clone instead:
-
-```bash
-claude plugin marketplace add ./genesis-protocol
-claude plugin install genesis-the-protocol@chetan-protocols
+claude plugin install genesis-the-protocol@cs-genesis
 ```
 
 ## Use it
@@ -51,27 +41,6 @@ Each skill can also be used alone if what it needs is already in the conversatio
 ## Where the files go
 
 In Claude Code, the handoff writes into a `genesis-protocol-docs/` folder at the project root (the git root, or the working directory when there is no repository). The folder is created if it doesn't exist. In apps that can send files, the three files are delivered in the conversation.
-
-## Repository layout
-
-```
-.claude-plugin/marketplace.json
-plugins/genesis-the-protocol/
-├── .claude-plugin/plugin.json
-├── README.md
-└── skills/
-    ├── genesis-the-protocol/
-    ├── crossfire-protocol/
-    ├── into-system-synthesis/
-    ├── tech-stack-protocol/
-    ├── low-level-design-protocol/
-    ├── handoff-architecture-protocol/
-    └── help-me/
-```
-
-## Updating
-
-Bump `version` in `plugins/genesis-the-protocol/.claude-plugin/plugin.json` with every change you publish, so installed copies pick up the update.
 
 ## License
 
