@@ -5,7 +5,7 @@
   "plugins": [
     {
       "name": "genesis-the-protocol",
-      "source": "./genesis-the-protocol",
+      "source": "./",
       "description": "Take a project idea from interview to architecture files"
     }
   ]
